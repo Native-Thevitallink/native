@@ -1,0 +1,411 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Tsukimi+Rounded:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary:#2c8153;
+}
+
+::selection{
+    color: white;
+    background-color: var(--primary);
+}
+
+/* PAGE1 ______________________________ */    
+body{
+    overflow-x: hidden;
+}
+#p1{
+    
+    background-color: #2c8153;
+    width: 1520px;
+    height: 750px;   
+}
+nav{
+    width: 1540px;
+    height: 75px;
+    list-style: none;
+    background-color: #FCFCFC;
+    z-index: 3;
+    position: absolute;
+    top: 0%;
+    position:fixed;
+    box-shadow: 2px 2px 28px rgba(95, 95, 95, 0.322);
+}
+nav img{
+    width: 102px;
+    height: 38px;
+    padding-left: 80px;
+    padding-top: 18px;
+}
+ul{
+    position: absolute;
+    left: 1050px;
+    top: 29px;
+    width: 380px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 15.5px;
+    color: var(--primary);
+    list-style-type: none;
+    margin: 15px;
+    
+}
+#p1-back{
+    position: absolute;
+    top: 70px;
+    left: 0%;
+    width: 1520px;
+    height: 680px;
+}
+.p1-heading{
+    position: absolute;
+    width: 558px;
+    height: 82px;
+    top: 280px;
+    left: 481px;
+}
+.p1-heading img{
+    width: 558px;
+    height: 82px;
+}
+#p1-button{
+    position: absolute;
+    background-color: #FBFBFB;
+    width: 177px;
+    height: 41.44px;
+    top: 433px;
+    left: 671px;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow:
+    0px 1.9px 2.2px rgba(0, 0, 0, 0.031),
+    0px 4.6px 5.3px rgba(0, 0, 0, 0.044),
+    0px 8.6px 10px rgba(0, 0, 0, 0.055),
+    0px 15.4px 17.9px rgba(0, 0, 0, 0.066),
+    0px 28.8px 33.4px rgba(0, 0, 0, 0.079),
+    0px 69px 80px rgba(0, 0, 0, 0.11);
+  font-family: 'Ubuntu', Courier, monospace;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333634;
+  text-decoration: none;
+}
+
+
+
+/* PAGE2 ________________________ */
+
+#p2{
+    
+    width: auto;
+    height: 446px;
+    /* background-color: #128A49; */
+}
+#p2-heading{
+    width: 145px;
+    height: 41px;
+    font-size: 28px;
+    font-family: 'Lemon', cursive;
+    position: absolute;
+    top: 815px;
+    left: 698px;
+}
+.p2-logogroup{
+    width: 916px;
+    height: 118px;
+    display: flex;
+    gap: 299px;
+    align-items: center;
+    /* background-color: aliceblue; */
+    position: absolute;
+    left: 302px;
+    top: 929px;
+    
+}
+#p2-logo{
+    width: l00px;
+    height: 100px;
+}
+#p2-logo2{
+    width: 118px;
+    height: 118px;
+}
+.p2-namegroup{
+    position: absolute;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    top: 1073px;
+    left: 252px;
+    width: 1080px;
+    height: 30px;
+    display: flex;
+    gap: 250px;
+}
+
+
+/* PAGE 3 ______________________*/
+
+#p3{
+    background-image: url('illustrations/p3-back.png');
+    width: 1520px;
+    height: 684px;
+}
+.p3-textgroup{
+    width: 500px;
+    height: 479px;
+    display: flex;
+    /* align-items: center;    */
+    gap: 50px;
+    flex-direction: column;
+    position: absolute;
+    top: 1267px;
+    left: 198px;
+}
+.p3-textgroup h1{
+    font-family: 'Lemon', cursive;  
+    font-size: 35px;
+    color: #333634;  
+    letter-spacing: 2%;
+}
+.p3-textgroup h2{
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1%;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    width: 312px;
+    height: 28px;
+}
+.p3-textgroup p{
+    width: 500px;
+    height: 325px;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    letter-spacing: 1%;
+    font-size: 17px;
+}
+#p3-img{
+    width: 473px;
+    height: 495px;
+    position: absolute;
+    top: 1267px;
+    left: 850px;
+}
+
+/* PAGE 4 ________________________ */
+
+#p4{
+    width: 1520px;
+    height: 1197px;
+    display: flex;
+    flex-direction: column;
+}
+#p4-heading-1{
+    font-family: 'Lemon', cursive; 
+    letter-spacing: 1%;
+    font-size: 25px;
+    letter-spacing: 1%;
+    position: absolute;
+    left: 195px;
+    top: 1925px;
+    color: #333634;
+}
+.p4-contentbox-1{
+    width: 1110px;
+    height: 320px;
+    position: absolute;
+    top: 2071px;
+    left: 191px;
+    /* background-color: #1b5737; */
+}
+#peep-1{
+    position: absolute;
+    top: 2029px;
+    left: 191px;
+}
+#p4-img-1{
+    width: 418px;
+    height: 418px;
+    position: relative;
+    left: 3px;
+    bottom: 49px;
+    float: right;
+}
+.p4-container-1{
+    position: relative;
+    left: 100px;
+    width: 1010px;
+    height: 320px;
+    background-color: #2B9A5D;
+    border: 2.5px solid black;
+}
+.p4-textbox-1{
+    position: relative;
+    left: 32px;
+    top: 28px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    width: 503px;
+    gap: 26px;
+    height: 244px;
+}
+.p4-textbox-1 h1{
+    font-size: 24px;
+    color: white;
+}
+.p4-textbox-1 h2{
+    font-size: 15px;
+    color: black;
+}
+.p4-textbox-1 p{
+    font-size: 15px;
+    color: #FBFBFB;
+}
+.p4-contentbox-2{
+    width: 1049px;
+    height: 418px;
+    position: absolute;
+    top: 2563px;
+    left: 201px;
+    /* background-color: #0f0d0d; */
+}
+.p4-container-2{
+    width: 1010px;
+    height: 320px;
+    position: relative;
+    top: 50px;
+    background-color: #2B9A5D;
+    border: 2.5px solid black;
+    display: flex;
+    
+}
+#p4-img-2{
+    width: 418px;
+    height: 418px;
+    position: relative;
+    right: 3px;
+    bottom: 49px;
+}
+.p4-textbox-2{
+    font-family: 'Tsukimi Rounded', sans-serif;
+    position: relative;
+    left: 85px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #333634; */
+    text-align: right;
+    gap: 26px;
+    width: 474px;
+    height: 200px;
+    top: 57px;
+}
+.p4-textbox-2 h1{
+    font-size: 24px;
+    color: white;
+}
+.p4-textbox-2 h2{
+    font-size: 15px;
+    color: black;
+}
+.p4-textbox-2 p{
+    color: #FBFBFB;
+    font-size: 15px;
+}
+#peep-2{
+    position: absolute;
+    /* width: 305px;
+    height: 400px; */
+    top: 2572px;
+    left: 1168px;
+}
+
+/* PAGE 5 ________________________ */
+
+#p5{
+    width: 1520px;
+    height: 576px;
+    /* background-color: #2B9A5D; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.p5-main{
+    width: 960px;
+    height: 441px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p5-textbox{
+    width: 234px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.p5-textbox h1{
+    font-family: 'Lemon', cursive; 
+    letter-spacing: 1%;
+    font-size: 25px;
+}
+.p5-textbox h3{
+    font-size: 10px;
+}
+.p5-profilebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 91px;
+    position: relative;
+    top: 60px;
+    width: 960px;
+    height: 335px;
+}
+
+/* footer__________ */
+
+footer{
+    background-color: #0E3925;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 480px;
+}
+#footer-logo{
+    float: left;
+    width: 182px;
+    height: 45px;
+    margin-left: 70px;
+}
+footer h6{
+    font-size: 14px;
+    color: white;
+}
+footer button{
+    float: right;
+    /* padding-right: 70px; */
+    margin-right: 70px;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
