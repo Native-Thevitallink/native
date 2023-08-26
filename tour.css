@@ -23,6 +23,7 @@ html{
 /* PAGE1 ______________________________ */    
 body{
     overflow-x: hidden;
+    background-color: #F7F7F7;
 }
 #p1{
     
@@ -33,7 +34,6 @@ body{
 nav{
     width: 1540px;
     height: 75px;
-    list-style: none;
     background-color: #FCFCFC;
     z-index: 3;
     position: absolute;
@@ -41,17 +41,25 @@ nav{
     position:fixed;
     box-shadow: 2px 2px 28px rgba(95, 95, 95, 0.322);
 }
-nav img{
-    width: 102px;
-    height: 38px;
-    padding-left: 80px;
-    padding-top: 18px;
+nav h3{
+    font-size: 15.5px;
+    margin-left: 7vw ;
+    position: absolute;
+    top: 28px;
+    font-family: 'Ubuntu';
+    color: #003A3D;
+}
+#nav-logo{
+    width: 38px;
+    height: 39.85px;
+    padding-left: 3vw;
+    padding-top: 15px;
 }
 ul{
     position: absolute;
-    left: 1050px;
+    right: 80px;
     top: 29px;
-    width: 380px;
+    width: 430px;
     height: 18px;
     display: flex;
     align-items: center;
@@ -61,9 +69,11 @@ a{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
     font-size: 15.5px;
-    color: var(--primary);
+    color: #003A3D;
     list-style-type: none;
     margin: 15px;
+    text-decoration: none;
+    
 }
 
 .p1{
@@ -131,8 +141,11 @@ a{
     8.4px 8.6px 10px rgba(0, 0, 0, 0.035),
     15px 15.4px 17.9px rgba(0, 0, 0, 0.042),
     28px 28.8px 33.4px rgba(0, 0, 0, 0.05),
-    67px 69px 80px rgba(0, 0, 0, 0.07)
-  ;
+    67px 69px 80px rgba(0, 0, 0, 0.07);
+    
+}
+#days::after{
+    transition: 0.3s all ease;
 }
 #submit{
     width: 126px;
@@ -144,15 +157,17 @@ a{
     font-weight: 600;
     font-family: 'Ubuntu';
     box-shadow:
-  1.9px 1.9px 2.2px rgba(0, 0, 0, 0.02),
-  4.5px 4.6px 5.3px rgba(0, 0, 0, 0.028),
-  8.4px 8.6px 10px rgba(0, 0, 0, 0.035),
-  15px 15.4px 17.9px rgba(0, 0, 0, 0.042),
-  28px 28.8px 33.4px rgba(0, 0, 0, 0.05),
-  67px 69px 80px rgba(0, 0, 0, 0.07)
-;
+    1.9px 1.9px 2.2px rgba(0, 0, 0, 0.02),
+    4.5px 4.6px 5.3px rgba(0, 0, 0, 0.028),
+    8.4px 8.6px 10px rgba(0, 0, 0, 0.035),
+    15px 15.4px 17.9px rgba(0, 0, 0, 0.042),
+    28px 28.8px 33.4px rgba(0, 0, 0, 0.05),
+    67px 69px 80px rgba(0, 0, 0, 0.07);
+    transition: all 0.25s ease;
 }
-
+#submit:active{
+    transform: scale(0.93);
+}
 #p2-scroll{
     display: flex;
     justify-content: center;
@@ -171,7 +186,6 @@ a{
   41.8px 41.8px 33.4px rgba(0, 0, 0, 0.072),
   100px 100px 80px rgba(0, 0, 0, 0.1);
   display: none;
-
 }
 #p2-scroll button{
     width: max-content;
@@ -183,6 +197,7 @@ a{
     font-family: 'Ubuntu';
     font-size: 18px;
 }
+
 #p3-scroll{
     display: flex;
     justify-content: center;
