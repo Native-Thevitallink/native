@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Native-Tourism</title>
+    <link rel="stylesheet" href="tour.css">
+    <link rel="shortcut icon" href="illustrations/LOGO/circular background.png" type="image/x-icon">
+    <script src="tour.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="illustrations\LOGO\black transparent.png" alt="logo">
+            <ul>
+                <a href="index.html#p1" id="home">Home</a>
+                <a href="index.html#p3" id="about-us">About us</a>
+                <a href="index.html#p4" id="services">Services</a>
+                <a href="contact.html" id="contact-us">Contact us</a>
+            </ul>
+        </nav>
+    </header>
+    <div class="p1">
+        <h1>“From Here to Everywhere: <br>
+            Narratives of Unforgettable Expectations “</h1>
+        <div class="choose">
+            <select name="location" id="location">
+                <option value="null">
+                    Choose location
+                </option>
+                <option value="roing">
+                    Roing-Arunachal Pradesh
+                </option>
+                <option value="naugaon">
+                    Naugaon-Uttrakhand
+                </option>
+                <option value="tirunelveli">
+                    Tirunelveli-Tamil Nadu
+                </option>
+                <option value="deogarh">
+                    Deogarh-Madhya Pradesh
+                </option>
+
+            </select>
+            <select name="days" id="days">
+                <option value="no">
+                    Choose Number of days
+                </option>
+                <option value="3-days">
+                    3-Days
+                </option>
+                <option value="4-days">
+                    4-Days
+                </option>
+                <option value="5-days">
+                    5-Days
+                </option>
+            </select>
+        </div>
+        <button id="submit" onclick="ToggleShow()">Submit</button>
+        <a href="#p2" id="p2-scroll">
+            <button>↓</button>
+        </a>
+        <a href="#p3" id="p3-scroll">
+            <button>↓</button>
+        </a>
+        <a href="#p4" id="p4-scroll">
+            <button>↓</button>
+        </a>
+        <a href="#p5" id="p5-scroll">
+            <button>↓</button>
+        </a>
+    </div>
+    <div id="p2">
+        <img src="illustrations/Roing.png" alt="roing" id='destination-place-1'>
+    </div>
+    <div id="p3">
+        <img src="illustrations/Naugaon.png" alt="naugaon" id="destination-place-2">
+
+    </div>
+    <div id="p4">
+        <img src="illustrations/Tirunelveli.png" alt="tirunelveli" id="destination-place-3">
+
+    </div>
+    <div id="p5">
+        <img src="illustrations/Deogarh.png" alt="deogarh" id="destination-place-4">
+    </div>
+</body>
+
+</html>
