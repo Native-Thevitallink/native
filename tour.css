@@ -1,6 +1,7 @@
 /* FONTS */
 
 @import url('https://fonts.googleapis.com/css2?family=Lemon&family=Tsukimi+Rounded:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
 
 html{
     scroll-behavior: smooth;
@@ -81,12 +82,11 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 1520px;
-    height: 750px;
+    width: 100vw;
+    height: 739px;
     background-image: url(illustrations/mountain-back.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: aqua;
     gap: 95px;
 }
 .p1 h1{
@@ -96,7 +96,6 @@ a{
     font-family: 'Ubuntu';
     color: white;
     text-align: center;
-    
 }
 .choose{
     width: 552px;
@@ -288,55 +287,174 @@ a{
     font-family: 'Ubuntu';
     font-size: 18px;
 }
+#p6-scroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 50px;
+    background-color: #2c8153;
+    position: absolute;
+    top: 87vh;
+    left: 91vw;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.028),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.04),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.05),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.06),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.072),
+  100px 100px 80px rgba(0, 0, 0, 0.1);
+  display: none;
+
+}
+#p6-scroll button{
+    width: max-content;
+    height: max-content;
+    background: transparent;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-size: 18px;
+}
+#p7-scroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 50px;
+    background-color: #2c8153;
+    position: absolute;
+    top: 87vh;
+    left: 91vw;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.028),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.04),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.05),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.06),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.072),
+  100px 100px 80px rgba(0, 0, 0, 0.1);
+  display: none;
+
+}
+#p7-scroll button{
+    width: max-content;
+    height: max-content;
+    background: transparent;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-size: 18px;
+}
 
 #p2{
+    background-color: white;
     width: 100vw;
-    height: 675px;
+    height: 750px;
     display: none;
 }
 #p3{
+    background-color: white;
     width: 100vw;
-    height: 675px;
+    height: 750px;
     display: none;
 }
 #p4{
+    background-color: white;
     width: 100vw;
-    height: 675px;
+    height: 750px;
     display: none;
 }
 #p5{
+    background-color: white;
     width: 100vw;
-    height: 675px;
+    height: 750px;
     display: none;
 }
-#destination-place-1{
-    width: 1255px;
-    height: 556px;
-    position: relative;
-    top: 8vh;
-    left: 9vw;
+#p6{
+    background-color: white;
+    width: 100vw;
+    height: 750px;
+    display: none;
 }
-#destination-place-2{
-    width: 1255px;
-    height: 556px;
-    position: relative;
-    top: 8vh;
-    left: 9vw;
-    /* display:none; */
+#p7{
+    background-color: white;
+    width: 100vw;
+    height: 750px;
+    display: none;
 }
-#destination-place-3{
-    width: 1255px;
-    height: 556px;
-    position: relative;
-    top: 8vh;
-    left: 9vw;
-    /* display:none; */
+#p2 img{
+    position: absolute;
+    top: 900px;
+    left: 73px;
+    width: 1316px;
+    height: 513px;
 }
-#destination-place-4{
-    width: 1255px;
-    height: 556px;
-    position: relative;
-    top: 8vh;
-    left: 9vw;
-    /* display:none; */
+#p3 img{
+    position: absolute;
+    top: 900px;
+    left: 73px;
+    width: 1316px;
+    height: 513px;
+}
+#p4 img{
+    position: absolute;
+    top: 900px;
+    left: 73px;
+    width: 1316px;
+    height: 513px;
+}
+#p5 img{
+    position: absolute;
+    top: 900px;
+    left: 73px;
+    width: 1316px;
+    height: 513px;
+}
+#p6 img{
+    position: absolute;
+    top: 900px;
+    left: 73px;
+    width: 1316px;
+    height: 513px;
+}
+#p7 img{
+    position: absolute;
+    top: 900px;
+    left: 73px;
+    width: 1316px;
+    height: 513px;
+}
+#bt-ok{
+    position: absolute;
+    right: calc(1520px - (1285px + 145px/2));
+    top: calc(1305px + 25px);
+    z-index: 2;
+    width: 130px;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+#brochure{
+    position: absolute;
+    right: calc(1520px - 1200px);
+    top: calc(1305px + 25px);
+    z-index: 2;
+    width: 130px;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
 }
